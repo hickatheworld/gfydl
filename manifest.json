@@ -1,0 +1,15 @@
+{
+	"name": "gfydl",
+	"description": "To download a gfycat more easily.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [{
+		"matches": [
+			"https://*.gfycat.com/*"
+		],
+		"js": [
+			"gfydl.js"
+		]
+	}
+]
+}
